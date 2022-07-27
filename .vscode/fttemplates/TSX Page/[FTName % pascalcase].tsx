@@ -61,7 +61,7 @@ const [FTName % pascalcase]: FC<[FTName % pascalcase]Props> = () => {
         </IonToolbar>
       </IonHeader>
     
-      <IonContent fullscreen>
+      <IonContent fullscreen className="[FTName % camelcase]">
         {data ? (
           <>
             <IonItem>

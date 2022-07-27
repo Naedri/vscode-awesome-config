@@ -1,16 +1,9 @@
 {
     "editor.formatOnPaste": false,
     "editor.formatOnSave": true,
-    "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": true
-    },
     "cSpell.words": [
-        "ionicons",
-        "minlength",
-        "myaccess",
-        "signup",
-        "Tsne",
-        "uncapitalize"
+        "fttemplates",
+        "camelcase"
     ],
     "cSpell.ignorePaths": [
         "node_modules", // this will ignore anything the node_modules directory
@@ -20,7 +13,7 @@
         ".git", // Ignore the .git directory
         "package-lock.json", // Ignore the package-lock.json file
         "package.json", // Ignore the package.json file
-        "public/locales"
+        "public/locales" // i18n folders
     ],
     "folderTemplates.templateFolderPath": "./.vscode/fttemplates",
 }

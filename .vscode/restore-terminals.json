@@ -1,7 +1,7 @@
 {
     "artificialDelayMilliseconds": 5000,
     "keepExistingTerminalsOpen": false,
-    "runOnStartup": true,
+    "runOnStartup": false,
     "terminals": [
         {
             "splitTerminals": [
@@ -15,7 +15,7 @@
                 {
                     "name": "server",
                     "commands": [
-                        "cd ../ms-users-back ; clear ; npm run start:prod"
+                        "cd ../backend ; clear ; npm run start:prod"
                     ],
                     "shouldRunCommands": false
                 }
