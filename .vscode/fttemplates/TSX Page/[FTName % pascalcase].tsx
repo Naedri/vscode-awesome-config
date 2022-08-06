@@ -27,7 +27,7 @@ import '@ionic/react/css/typography.css';
 import '../../theme/variables.css';
 
 /* Component CSS */
-import './[FTName % pascalcase].module.css';
+import styles from './[FTName % pascalcase].module.css';
 
 type [FTName % pascalcase]Props = {};
 
@@ -61,7 +61,7 @@ const [FTName % pascalcase]: FC<[FTName % pascalcase]Props> = () => {
         </IonToolbar>
       </IonHeader>
     
-      <IonContent fullscreen className="[FTName % camelcase]">
+      <IonContent fullscreen className={styles.[FTName % pascalcase]}>
         {data ? (
           <>
             <IonItem>

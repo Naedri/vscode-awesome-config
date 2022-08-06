@@ -1,7 +1,7 @@
 import type { FC, ReactNode } from 'react';
 import React from 'react';
 
-import './[FTName % pascalcase].module.css';
+import styles from './[FTName % pascalcase].module.css';
 
 export interface [FTName % pascalcase]Props {
   disabled?: boolean;
@@ -19,7 +19,7 @@ const [FTName % pascalcase]: FC<[FTName % pascalcase]Props> = ({
   type = '[FTName % camelcase]',
 }: [FTName % pascalcase]Props) => {
   return (
-      <[FTName % camelcase] defaultValue={defaultValue} className="[FTName % camelcase]" disabled={disabled} onClick={onClick} type={type}>
+      <[FTName % camelcase] defaultValue={defaultValue} className={styles.[FTName % pascalcase]} disabled={disabled} onClick={onClick} type={type}>
           {children}
       </[FTName % camelcase]>
   );
