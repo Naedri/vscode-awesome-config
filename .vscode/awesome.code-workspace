@@ -1,7 +1,31 @@
 {
+	"editor.formatOnPaste": false,
+	"editor.formatOnSave": true,
 	"folders": [
 		{
 			"path": ".."
 		}
 	],
+	"cSpell.words": [
+		"fttemplates",
+		"camelcase"
+	],
+	"cSpell.ignorePaths": [
+		"node_modules", // this will ignore anything the node_modules directory
+		"**/node_modules", // the same for this one
+		"**/node_modules/**", // the same for this one
+		"vscode-extension", //
+		".git", // Ignore the .git directory
+		"package-lock.json", // Ignore the package-lock.json file
+		"package.json", // Ignore the package.json file
+		"public/locales" // i18n folders
+	],
+	"folderTemplates.templateFolderPath": "./.vscode/fttemplates",
+	"powermode.enabled": true,
+	"powermode.presets": "exploding-rift",
+	"powermode.combo.threshold": 5,
+	"powermode.combo.timeout": 2,
+	"powermode.combo.counterEnabled": "show",
+	"powermode.combo.timerEnabled": "default",
+	"powermode.shake.enabled": false,
 }
