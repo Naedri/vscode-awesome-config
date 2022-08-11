@@ -4,6 +4,11 @@
 	"editor.codeActionsOnSave": {
 		"source.fixAll.eslint": true
 	},
+	// "editor.codeActionsOnSave": [
+	// 	// "source.organizeImports",
+	// 	"source.fixAll",
+	// 	"source.format"
+	// ],
 	"folders": [
 		{
 			"path": ".."
